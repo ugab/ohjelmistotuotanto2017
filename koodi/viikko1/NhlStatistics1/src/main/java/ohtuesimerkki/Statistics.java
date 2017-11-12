@@ -36,7 +36,8 @@ public class Statistics {
         return playersOfTeam;
     }
 
-    public List<Player> topScorers(int howMany) {
+    public List<Player> topScorers(int howManyog) {
+	int howMany==howManyog;
         Collections.sort(players);
         ArrayList<Player> topScorers = new ArrayList<Player>();
         Iterator<Player> playerIterator = players.iterator();
